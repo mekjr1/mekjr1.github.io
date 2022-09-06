@@ -1,3 +1,14 @@
+---
+title: "Mining Reddit Data: Opinion Mining on Social Media data"
+collection: publications
+permalink: /publication/2016-01-03-mining-reddit-data
+excerpt: 'This a small project report in Data Mining using Python, we employed Data Analysis techniques and Sentiment Analysis on the data to find the polarity of opnions from reddit users preceding a basquetball game. '
+date: 2016-03-01
+venue: 'IIS Digital Repository'
+paperurl: 'http://mekjr1.github.io/files/MiningRedditData.pdf'
+citation: 'Meque, Abdul et all. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+---
+
 # Abstract
 Nowadays, social media is one widely used platform to access information. Fake news on social media
 and various other media is widely spreading. It is a matter of serious concern due to its ability to cause
