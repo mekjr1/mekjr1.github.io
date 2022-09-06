@@ -1,19 +1,17 @@
 ---
-title: "An ontology-based comparative study of standards for
-business process engineering"
+title: >-
+  2022-07-21-mexican-spanish-paraphrase-identification-using-data-augmentation.md
 collection: publications
-permalink: /publication/2012-09-13-an-ontology-based-comparative-study-standards-business-process-engineering
-excerpt: 'For the current work, I joined the Laboratory for Applied ontology as an intern, conducting
-research on the BPMLs and methodologies, reviewing the works done by Aagesen and Krogstie in
-(Aagesen, et al., 2010), and Recker and others (Recker, et al., 2008), (Recker, et al., 2005), Recker
-and Rosemann (Recker, et al., 2007) and Gruninger in (Gruninger, 2009), and also conducting my
-own studies, evaluating the languages premises with respect to DOLCE (Descriptive Ontology for
-Linguistics and Cognitive Engineering) (Masolo, et al. 2003)'
-date: 2012-09-13
-venue: 'University of Trento Library'
-paperurl: 'http://mekjr1.github.io/files/AbdulMeque-thesis.pdf'
-citation: 'Meque, Abdul. (2012). &quot;An ontology-based comparative study of standards for
-business process engineering.&quot; <i>University of Trento Library</i>. 1(2).'
+permalink: >-
+  /publication/2022-07-21-mexican-spanish-paraphrase-identification-using-data-augmentation
+date: 2022-09-13T00:00:00.000Z
+venue: Proceedings of IberLEF 2022
+paperurl: 'http://mekjr1.github.io/files/AbdulMeq.pdf'
+citation: >-
+  Meque, Abdul. (2022). &quot;Mexican Spanish Paraphrase Identification Using
+  data Augmentation.&quot; <i>University of Trento Library</i>. 1(2).
+published: true
+excerpt: ''
 ---
 
 # Abstract
