@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: About Abdul Gafar Manuel Meque
-excerpt: About me
+title: ' About Abdul Gafar Manuel Meque '
+excerpt: ' About Abdul Meque '
 author_profile: true
 redirect_from:
   - /about/
