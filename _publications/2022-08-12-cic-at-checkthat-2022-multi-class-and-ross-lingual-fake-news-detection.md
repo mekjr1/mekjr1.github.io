@@ -2,13 +2,12 @@
 title: 'CIC @ Check 2022 Multi-Class and Cross-lingual Fake News Detection
 collection: publications
 permalink: /publication/2022-08-12-cic-at-checkthat-2022-multi-class-and-cross-lingual-fake-news-detection
-excerpt: '. '
 date: 2022-08-01
 venue: CLEF2022
 paperurl: 'http://mekjr1.github.io/files/MinRedditData.pdf'
-citation: 'Muhammad, Arif et all. CIC@CheckThat 2022: Multi-class and Cross-lingual fake
-  news detection (2022). &quot;C.&quot; <i>Journal 1</i>. 1(3).'
+citation: 'Muhammad, Arif et all. CIC@CheckThat 2022: Multi-class and Cross-lingual fake news detection (2022). &quot;C.&quot; <i>Journal 1</i>. 1(3).'
 published: true
+excerpt: ''
 ---
 
 # Abstract
