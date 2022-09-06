@@ -1,8 +1,6 @@
 ---
 permalink: /
-title: >-
-  academicpages is a ready-to-fork GitHub Pages template for academic personal
-  websites
+title: About Abdul Gafar Manuel Meque
 excerpt: About me
 author_profile: true
 redirect_from:
@@ -10,16 +8,7 @@ redirect_from:
   - /about.html
 published: true
 ---
----
-permalink: /
-title: ' About Abdul Gafar Manuel Meque '
-excerpt: ' About Abdul Meque '
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
-published: true
----
+
 
 ## Short Bio
 TBD
