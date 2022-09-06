@@ -3,7 +3,7 @@ title: 'Mexican Spanish Paraphrase Identification using Data Augmentation'
 collection: publications
 permalink: /publication/2022-07-21-mexican-spanish-paraphrase-identification-using-data-augmentation
 date: 2022-08-13
-venue: Proceedings of IberLEF 2022
+venue: 'Proceedings of IberLEF 2022'
 paperurl: 'http://mekjr1.github.io/files/AbdulMeq.pdf'
 citation: 'Meque, Abdul. (2022). &quot;Mexican Spanish Paraphrase Identification Using
   data Augmentation.&quot; <i>University of Trento Library</i>. 1(2).'
