@@ -1,5 +1,5 @@
 ---
-title: 'CIC @ Check 2022 Multi-Class and Cross-lingual Fake News Detection
+title: 'CIC @ Check 2022 Multi-Class and Cross-lingual Fake News Detection'
 collection: publications
 permalink: /publication/2022-08-12-cic-at-checkthat-2022-multi-class-and-cross-lingual-fake-news-detection
 date: 2022-08-01
