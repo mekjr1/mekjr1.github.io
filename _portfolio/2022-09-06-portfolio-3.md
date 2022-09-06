@@ -1,0 +1,32 @@
+---
+title: "MusicaPromo"
+excerpt: "A Music publishing web platform <br/><img src='/images/musicapromo.png'>"
+collection: portfolio
+---
+
+MusicaPromo started as music blog, since 2017, I have build a platform around it, it now supportst user profiles, instant messaging, special profile for the musicians and bands, allows for musicians and/or music labels to publish and sell their product directly on the platform.
+
+It was designed as part of project between NM Technology Services in partership with MusicaPromo, LDA.
+
+## Features
+
+* Publish and Sell Music and Music Videos
+* Record Label Managers can Manage Musicians Profiles
+* Users can interact with Artists and other users via IM
+* Users can creat fan-club groups
+* Listen to music while browsing
+* Create Playlists
+* Add Music to cart and buy
+* Search Music/Artists/Albums/Playlist
+* Social Login
+
+
+## Technologies/Tools Used
+* Wordpress
+* WooCommerce
+* Postgree SQL
+* ElasticSearch
+* JQuery
+* AWS S3 Bucket
+* JEE (for admin side auto-publish feature)
+* Mensageiro Platform for Interaction with Users
