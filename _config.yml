@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Abdul Gafar Manuel Meque"
   avatar           : "profile.png"
-  bio              : "Natural Language Processing researcher, PhD Candidate at Instituto Politécnico Naciona, Mexíco"
+  bio              : "Natural Language Processing researcher, PhD Candidate at Instituto Politécnico Nacional, Mexíco"
   location         : "Beira, Mozambique"
   employer         : "Catholic University of Mozambique"
   googlescholar    : "https://scholar.google.com/citations?user=gN90GfQAAAAJ&hl=pt-BR&oi=ao"
@@ -254,6 +254,7 @@ permalink: /:categories/:title/
 # paginate_path: /page:num/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+theme: minimal-mistakes-jekyll
 
 # Plugins
 plugins:
