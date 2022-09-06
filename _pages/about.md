@@ -55,7 +55,7 @@ With my leadership,  NM Technology Services & Solutions is partnering with DSD C
 
 ### Interactive Multiplatform and Multichanel Messaging-based Networking Application (IM3NSA)
 Currently working as Project Manager on a platform that allow enterprises/individuals to visually build, deploy and run SMS applications, usefull for surveys, marketing, campaigning, customer care, and so many other possibility. The project is on being funded by [Winrock International](https://www.winrock.org/project/rama/ "WINROCK RAMA") under the umbrella of their FEED THE FUTURE RESILIENT AGRICULTURAL MARKETS ACTIVITY Project entitled Feed The Future Resilient Agricultural Markets Activity (RAMA) – Nacala Corridor.
-
+ 
 In the first phase we aim at providing small farmers with means to access high quality, affordable, reliable, demand-driven information during the agriculture activity lifecycle along the value chain and railway safety info broadcasts on regular basis.
 
 ### Moodle Platform Implementation at Instituto Superior de Ciencias e Tecnologias Alberto Chipande
