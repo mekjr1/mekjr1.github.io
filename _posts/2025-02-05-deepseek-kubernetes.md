@@ -10,6 +10,8 @@ tags:
   - GenAI
 ---
 
+This blog post provides a **step-by-step guide** to deploying **Ollama**, an LLM server, and **OpenWebUI**, a web-based chat interface, on **AWS EKS**. It covers setting up an EKS cluster, deploying Ollama with a **Persistent Volume Claim (PVC)**, exposing it via **LoadBalancer Services**, and configuring **Ingress** for external access. The guide also ensures that OpenWebUI is properly integrated, allowing users to interact with **DeepSeek R1** through a web interface. By following this guide, users can successfully **deploy, configure, and access** their AI chatbot on AWS. 🚀
+
 # Deploying Ollama with OpenWebUI on AWS EKS
 
 This guide provides step-by-step instructions to **deploy Ollama** (an LLM server) and **OpenWebUI** (a web-based chat interface) on **AWS EKS**. The process is divided into **two parts**:
