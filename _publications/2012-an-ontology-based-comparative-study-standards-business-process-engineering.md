@@ -14,6 +14,7 @@ venue: 'University of Trento Library'
 paperurl: 'http://mekjr1.github.io/files/AbdulMeque-thesis.pdf'
 citation: 'Meque, Abdul. (2012). &quot;An ontology-based comparative study of standards for
 business process engineering.&quot; <i>University of Trento Library</i>. 1(2).'
+category: 'thesis'
 ---
 # Abstract
 Since before the beginning of the millennium, many companies started to look for ways to

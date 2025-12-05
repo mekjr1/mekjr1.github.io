@@ -1,0 +1,39 @@
+{% comment %}
+  Display Medium articles from _data/medium_articles.yml
+  Each article includes title, date, excerpt, and external link
+{% endcomment %}
+
+<div class="medium-links">
+  {% if site.data.medium_articles and site.data.medium_articles.size > 0 %}
+    {% for article in site.data.medium_articles %}
+      <article class="external-link-item">
+        <h3>
+          <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer">
+            {{ article.title }}
+          </a>
+        </h3>
+        
+        {% if article.date %}
+          <p class="external-link-meta">
+            <time datetime="{{ article.date | date_to_xmlschema }}">
+              {{ article.date | date: "%B %d, %Y" }}
+            </time>
+          </p>
+        {% endif %}
+        
+        {% if article.excerpt %}
+          <p class="external-link-excerpt">{{ article.excerpt }}</p>
+        {% endif %}
+        
+        <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="external-link-cta">
+          Read on Medium →
+        </a>
+      </article>
+    {% endfor %}
+  {% else %}
+    <p class="placeholder-text">
+      Medium articles will be curated here. Check back soon for insights on scaling AI systems, 
+      hybrid RAG architectures, and practical engineering patterns.
+    </p>
+  {% endif %}
+</div>

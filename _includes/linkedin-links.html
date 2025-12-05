@@ -1,0 +1,39 @@
+{% comment %}
+  Display LinkedIn posts from _data/linkedin_posts.yml
+  Each post includes title, date, excerpt, and external link
+{% endcomment %}
+
+<div class="linkedin-links">
+  {% if site.data.linkedin_posts and site.data.linkedin_posts.size > 0 %}
+    {% for post in site.data.linkedin_posts %}
+      <article class="external-link-item">
+        <h3>
+          <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
+            {{ post.title }}
+          </a>
+        </h3>
+        
+        {% if post.date %}
+          <p class="external-link-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%B %d, %Y" }}
+            </time>
+          </p>
+        {% endif %}
+        
+        {% if post.excerpt %}
+          <p class="external-link-excerpt">{{ post.excerpt }}</p>
+        {% endif %}
+        
+        <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer" class="external-link-cta">
+          View on LinkedIn →
+        </a>
+      </article>
+    {% endfor %}
+  {% else %}
+    <p class="placeholder-text">
+      Top LinkedIn posts will be featured here, including AI strategy snapshots, 
+      architecture breakdowns, and lessons from delivery retrospectives.
+    </p>
+  {% endif %}
+</div>

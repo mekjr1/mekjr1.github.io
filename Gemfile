@@ -19,7 +19,13 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Windows file watcher (optional). Skip on newer Ruby where native build fails.
+if Gem.win_platform? && RUBY_VERSION < '3.1'
+  gem "wdm", "~> 0.1.1"
+end
+
+# Timezone data for Windows/JRuby
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

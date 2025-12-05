@@ -1,0 +1,14 @@
+- title: "Scaling AI Systems in LATAM: Lessons from the Field"
+  url: "https://medium.com/@abdulmeque/scaling-ai-latam"
+  date: 2025-10-01
+  excerpt: "Practical insights on deploying enterprise AI systems across Latin America, navigating infrastructure constraints, and building for emerging market realities."
+
+- title: "Hybrid RAG Architectures: When to Combine Approaches"
+  url: "https://medium.com/@abdulmeque/hybrid-rag-architectures"
+  date: 2025-09-15
+  excerpt: "Exploring architectural patterns for combining semantic search, keyword matching, and knowledge graphs in production RAG systems."
+
+- title: "The Hidden Costs of LLM Inference at Scale"
+  url: "https://medium.com/@abdulmeque/llm-inference-costs"
+  date: 2025-08-20
+  excerpt: "Beyond token pricing: understanding latency, context window management, and cost optimization strategies for production LLM deployments."

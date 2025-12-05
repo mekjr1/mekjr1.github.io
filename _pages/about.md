@@ -1,42 +1,51 @@
 ---
-permalink: /
-title: ' About Abdul Gafar Manuel Meque '
-excerpt: ' About Abdul Meque '
+permalink: /about/
+title: "About Abdul Meque"
+excerpt: "Global AI & Cloud Strategist — origin, journey, mission"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 published: true
 ---
 
+## Executive Summary
+I’m Abdul Manuel Meque — AI/ML Practice Lead, applied scientist, solutions architect, and entrepreneur. I help organisations adopt AI responsibly, modernise platforms on the cloud, and scale automation. I work end‑to‑end across strategy, architecture, and delivery: from GenAI CoEs and productised offerings to production‑grade systems in telecom, fintech, health, real estate, retail, and public sector.
 
-## Short Bio
-TBD
+- Core stack: AWS (Bedrock, Lambda, Step Functions, DynamoDB, SageMaker), FastAPI, Laravel, React/Next.js, MLOps, RAG, multi‑agent systems, Voice AI.
+- Regions: Africa and LATAM, with a cross‑continental perspective. Based in Mexico; born in Mozambique; global clients.
+I’m Abdul Meque — Global AI & Cloud Strategist helping organisations adopt AI responsibly, modernise platforms, and scale automation. Born in Mozambique, based in Mexico, and working globally across Africa and LATAM.
+### Today
+I advise leaders on AI strategy, cloud architecture, and engineering execution. I design pragmatic roadmaps, build scalable systems, and upskill teams. I currently lead AI/ML practice initiatives at Nova Cloud (IO Connect Services), shaping vision, offerings, delivery, and talent development.
+I advise leaders on AI strategy, cloud architecture, and engineering execution. I design pragmatic roadmaps, build scalable systems, and upskill teams.
+### Journey
+From Mozambique to Mexico: academia in NLP and information systems, then industry leadership across consulting and DevOps. Training includes systems integration (University of Trento), research at CNR’s Laboratory of Applied Ontology, and advanced studies in Computer Science in Taiwan and Mexico.
+From Mozambique to Mexico: academia in NLP and information systems, then industry leadership across consulting and DevOps. Trained in systems integration (University of Trento), research at CNR’s Laboratory of Applied Ontology, and advanced studies in Computer Science in Taiwan and Mexico.
 
-### Current Occupation
-I am a Ph.D candidate at the Computer Science at Centro de Investigación en Computación, Instituto Politécnico Nacional (IPN). I am currently working on Automatic Guilt detection in Social Media Text, under the supervion of Dr. Alexander Gelbukh and Dr. Grigori Sidorov, in Dr. Gelbukh's Natural Language Processing Lab.
+### Mission & Vision
+- Mission: accelerate AI-enabled transformation with ethical, scalable architectures.
+- Vision: Africa and LATAM enterprises leading with AI-first capabilities.
+## Focus Areas
+- AI Strategy & Advisory
+- Cloud & Software Engineering
+- Enterprise Automation & Scaling
+- Team Training & Upskilling
 
-### Before NLP Lab in Mexico
-Prior to my joining the NLP lab, I was a lecturer at the Catholic University of Mozambique, while simultaneously lended my expertise to the Industry as ICT Consultant and Project Manager, having held diferent managerial positions.
-I am a former Ph.D Candidate in Computer Science, a joint program by the [Institute of Information Science at Academia Sinica, Taiwan](http://www.iis.sinica.edu.tw "IIS Sinica") and [Computer Science Department at National ChengChi University, Taiwan](http://cs.nccu.edu.tw "CS at NCCU"). As a fellow from the [Taiwan Internation Graduate Program](tigp.sinica.edu.tw "TIGP").
+## Practice Leadership (Nova Cloud)
+- Designed a GenAI Center of Excellence; built an 18‑month onboarding curriculum for AI engineers.
+- Productised offerings: AI Contact Center Autopilot (Lex + Bedrock + Connect), Intelligent Document Processing (IDP) with RAG, real‑estate negotiation agent, Voice AI debt collection, GenAI readiness toolkit, AWS‑native RAG stack, multi‑agent document analysis.
+- Coordinated talent, governance, and delivery standards.
 
-Before that, I obtained M.Tech. degree in Systems Integration and e-Government from the [University of Trento, Italy](https://www.disi.unitn.it "UNITN") in 2012 where I worked as a research intern at the **CNR's Laboratory of Applied Ontology** under the supervision of professors **Roberta Ferrario** and **Claudio Masolo**; and a baccalaureate degree from the **Catholic University of Mozambique** in 2010.
+## Research & Academic Work
+- PhD (IPN, Mexico) thesis: Automatic Guilt Detection from Social Media Text.
+- Datasets: VIC, PoliGuilt, GuReT. Model: GuilBERT for emotion classification.
+- Broader: multilingual NMT for low‑resource languages; participation in shared tasks (e.g., COLING).
 
-### Positions in Industry
-I am an  _ ICT and Computer Science Lecturer_ at **Catholic University of Mozambique**, _Project Manager and Senior DevOps Engineer_  at **SD Consultores e Servicos** _Director of ICT_ and _Senior Systems Analyst & Developer_ at **NM Technology Services and Solutions**. 
-Basically I have two-faced carreer, working both in Academia and Industry
+## Multi‑country Experience
+Mozambique (origin), Mexico (current), Taiwan & Italy (training), Netherlands (collaboration), U.S. (clients & remote projects).
 
-~~In my  Industry carreer I split my time Manging Projects and Operations, as well as Consultanting  in ICT and Software/System Engineering projects, helping institutions devising internal ICT related policies and plans for  ICT Governance, Software Migration, Systems and Software adoption.~~
-
-## 
-
-
-## Research Interest
-My current Academic interests are Social Networks Data Mining, Natural Languages Processing ( particularly Emotion Detection, Sentiment Analysis and Semantic Role Labeling), Artificial Inteligence and Information Systems. 
-
-## Publications
-
-
+→ See detailed projects in [Selected Work](/selected-work/) and full details in the [CV](/cv/).
+ 
+## Personal Narrative
+Looking for background beyond the professional summary? Read [My Story](/my-story/).
+- Team Training & Upskilling
 
 
 ## News

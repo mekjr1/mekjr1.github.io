@@ -7,6 +7,7 @@ date: 2016-03-01
 venue: 'IIS Digital Repository'
 paperurl: 'http://mekjr1.github.io/files/MiningRedditData.pdf'
 citation: 'Meque, Abdul et all. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+category: 'workshop'
 ---
 This a small project report in Data Mining using Python, we employed Data Analysis techniques and Sentiment Analysis on the data to find the polarity of opnions from reddit users preceding a basquetball game. We ended up finding a direct correlation between opinions and results of a match with a high degree of certainty.
 

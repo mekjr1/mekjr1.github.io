@@ -1,0 +1,47 @@
+---
+layout: single
+---
+
+<div class="project-details">
+  {% if page.challenge %}
+  <section class="project-section">
+    <h2>Challenge</h2>
+    <div class="project-content">
+      {{ page.challenge | markdownify }}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.solution %}
+  <section class="project-section">
+    <h2>Solution</h2>
+    <div class="project-content">
+      {{ page.solution | markdownify }}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.outcome %}
+  <section class="project-section">
+    <h2>Outcome</h2>
+    <div class="project-content">
+      {{ page.outcome | markdownify }}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.technologies and page.technologies.size > 0 %}
+  <section class="project-section">
+    <h2>Technologies</h2>
+    <div class="project-technologies">
+      <ul class="technology-list">
+        {% for tech in page.technologies %}
+        <li class="technology-tag">{{ tech }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endif %}
+</div>
+
+{{ content }}

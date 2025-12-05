@@ -1,0 +1,146 @@
+---
+layout: single
+title: "Responsive Design Test Page"
+permalink: /test-responsive/
+---
+
+<style>
+  .test-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .test-section h2 {
+    color: #0f776d;
+    margin-top: 0;
+  }
+  
+  .viewport-info {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-family: monospace;
+  }
+  
+  .breakpoint-indicator {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .mobile { background: #ffebee; color: #c62828; }
+  .tablet { background: #fff3e0; color: #e65100; }
+  .desktop { background: #e8f5e9; color: #2e7d32; }
+</style>
+
+<div class="test-section">
+  <h2>Viewport Information</h2>
+  <div class="viewport-info">
+    <div>Window Width: <span id="window-width"></span>px</div>
+    <div>Window Height: <span id="window-height"></span>px</div>
+    <div>Device Pixel Ratio: <span id="pixel-ratio"></span></div>
+  </div>
+  
+  <div class="breakpoint-indicator mobile" id="mobile-indicator" style="display: none;">
+    📱 Mobile View (< 480px)
+  </div>
+  <div class="breakpoint-indicator tablet" id="tablet-indicator" style="display: none;">
+    📱 Tablet View (480px - 768px)
+  </div>
+  <div class="breakpoint-indicator desktop" id="desktop-indicator" style="display: none;">
+    💻 Desktop View (> 768px)
+  </div>
+</div>
+
+<div class="test-section">
+  <h2>Navigation Test</h2>
+  <p>✓ Check that navigation menu collapses to hamburger menu on mobile</p>
+  <p>✓ Verify hamburger icon is visible and clickable on small screens</p>
+  <p>✓ Ensure menu items are readable and properly spaced</p>
+</div>
+
+<div class="test-section">
+  <h2>Homepage Hero Test</h2>
+  <p>✓ Hero title should scale down on mobile (2.5rem → 1.5rem)</p>
+  <p>✓ CTA buttons should stack vertically on mobile</p>
+  <p>✓ "What I Do" grid should become single column on mobile</p>
+</div>
+
+<div class="test-section">
+  <h2>Feature Rows Test</h2>
+  <p>✓ Feature rows should stack vertically on mobile</p>
+  <p>✓ Images should display full width on mobile</p>
+  <p>✓ Text should be left-aligned (not right-aligned) on mobile</p>
+</div>
+
+<div class="test-section">
+  <h2>Writing Hub Test</h2>
+  <p>✓ Navigation tabs should wrap properly on mobile</p>
+  <p>✓ Writing cards should display in single column on mobile</p>
+  <p>✓ Tab text should be readable at smaller sizes</p>
+</div>
+
+<div class="test-section">
+  <h2>Project Grid Test</h2>
+  <p>✓ Project cards should display in single column on mobile</p>
+  <p>✓ Card images should maintain aspect ratio</p>
+  <p>✓ Technology tags should wrap properly</p>
+</div>
+
+<div class="test-section">
+  <h2>Typography Test</h2>
+  <h1>Heading 1 - Should scale on mobile</h1>
+  <h2>Heading 2 - Should scale on mobile</h2>
+  <h3>Heading 3 - Should scale on mobile</h3>
+  <p>Body text should remain readable at 0.95rem on mobile devices. Line height should be 1.6 for optimal readability.</p>
+</div>
+
+<div class="test-section">
+  <h2>Button Test</h2>
+  <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+    <a href="#" class="btn btn--primary">Primary Button</a>
+    <a href="#" class="btn btn--inverse">Secondary Button</a>
+  </div>
+  <p style="margin-top: 1rem;">✓ Buttons should be appropriately sized on mobile</p>
+</div>
+
+<div class="test-section">
+  <h2>Image Test</h2>
+  <img src="/images/500x300.png" alt="Test image" style="max-width: 100%;">
+  <p>✓ Images should be responsive and not overflow container</p>
+</div>
+
+<script>
+function updateViewportInfo() {
+  document.getElementById('window-width').textContent = window.innerWidth;
+  document.getElementById('window-height').textContent = window.innerHeight;
+  document.getElementById('pixel-ratio').textContent = window.devicePixelRatio;
+  
+  // Show appropriate breakpoint indicator
+  const width = window.innerWidth;
+  document.getElementById('mobile-indicator').style.display = width < 480 ? 'block' : 'none';
+  document.getElementById('tablet-indicator').style.display = (width >= 480 && width <= 768) ? 'block' : 'none';
+  document.getElementById('desktop-indicator').style.display = width > 768 ? 'block' : 'none';
+}
+
+// Update on load and resize
+updateViewportInfo();
+window.addEventListener('resize', updateViewportInfo);
+</script>
+
+<div class="test-section">
+  <h2>Test Instructions</h2>
+  <ol>
+    <li>Resize your browser window to different widths</li>
+    <li>Test on actual mobile devices (phone and tablet)</li>
+    <li>Verify all checkmarks above are satisfied</li>
+    <li>Check that no horizontal scrolling occurs</li>
+    <li>Ensure all text is readable without zooming</li>
+    <li>Verify touch targets are at least 44x44px</li>
+  </ol>
+</div>

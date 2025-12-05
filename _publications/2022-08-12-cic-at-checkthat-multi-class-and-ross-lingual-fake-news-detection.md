@@ -8,6 +8,7 @@ paperurl: 'http://mekjr1.github.io/files/MinRedditData.pdf'
 citation: 'Muhammad, Arif et all. CIC@CheckThat 2022: Multi-class and Cross-lingual fake news detection (2022). &quot;C.&quot; <i>Journal 1</i>. 1(3).'
 published: true
 excerpt: ''
+category: 'peer-reviewed'
 ---
 
 # Abstract

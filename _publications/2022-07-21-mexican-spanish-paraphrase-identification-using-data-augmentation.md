@@ -8,6 +8,7 @@ paperurl: 'http://mekjr1.github.io/files/AbdulMeq.pdf'
 citation: 'Meque, Abdul. (2022). &quot;Mexican Spanish Paraphrase Identification Using data Augmentation.&quot; <i>University of Trento Library</i>. 1(2).'
 published: true
 excerpt: ''
+category: 'peer-reviewed'
 ---
 
 # Abstract

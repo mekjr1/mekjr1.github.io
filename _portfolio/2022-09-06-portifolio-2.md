@@ -2,6 +2,7 @@
 title: "Mensageiro Platform"
 excerpt: "Allow businesses to visually and effortlessly build between their app/platforms/services and their clients using SMS, USSD and/or Social networks. <br/><img src='/images/mensageiroplatform.png'>"
 collection: portfolio
+published: false
 ---
 <div style="text-align: justify">
 What sets Mensageiro apart from other software platforms is that anyone anywhere in the world can design, implement, manage, modify, and analyse a complex interactions with millions of mobile users in real-time without technical assistance from a software engineer. </div> On top of it all, Mensageiro is a [free and open source software](https://github.com/mekjr1/im3nsa/)!

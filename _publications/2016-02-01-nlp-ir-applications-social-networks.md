@@ -9,6 +9,7 @@ venue: 'IIS Digital Repository'
 paperurl: 'http://mekjr1.github.io/files/AbdulMeque-NLPandIRApplicationsinSocialNetworkFinalProject.pdf'
 citation: 'Meque, Abdul. (2016). &quot; Natural Language Processing and Information Retrieval with
 Applications in Social Networks  &quot; <i>Academia Sinica Internal Repository</i>. 1(1).'
+category: 'workshop'
 ---
 In the present paper, I present an alternative feature set selections to improve the
 performance of the Noun Phrase chunker featured in (Bird et al., 2009). Several feature set plus algorithms combinations

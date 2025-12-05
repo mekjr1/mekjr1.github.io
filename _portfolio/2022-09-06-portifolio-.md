@@ -2,6 +2,7 @@
 title: "M Human Resource Management System"
 excerpt: "A Desktop App for HR Management<br/><img src='/images/mhrms.png'>"
 collection: portfolio
+published: false
 ---
 
 

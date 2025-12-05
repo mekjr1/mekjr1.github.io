@@ -1,0 +1,51 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if teaser %}
+      <div class="archive__item-teaser">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: base_path }}"
+            {% endif %}
+            alt="{{ title }}">
+        </a>
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+
+    {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+    {% endif %}
+
+    {% if post.technologies and post.technologies.size > 0 %}
+    <div class="project-card-technologies">
+      {% for tech in post.technologies limit:5 %}
+        <span class="technology-badge">{{ tech }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <p class="archive__item-link">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="btn btn--primary btn--small">View Case Study</a>
+    </p>
+  </article>
+</div>

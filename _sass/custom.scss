@@ -1,0 +1,18 @@
+// Custom accent and typography tweaks
+$brand-accent: #0f776d;
+$brand-accent-alt: #0f4c5c;
+
+a { color: $brand-accent; }
+a:hover { color: darken($brand-accent, 10%); }
+
+// Emphasis for highlights list on homepage
+.home-highlights { 
+  list-style: none; 
+  padding: 0; 
+  li { padding: .25rem 0; }
+}
+
+// Optional hero avatar styling
+.hero-avatar {
+  max-width: 180px; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}

@@ -1,0 +1,20 @@
+{% comment %}Render Medium and LinkedIn lists{% endcomment %}
+<div class="writing-external">
+  {% if site.data.medium and site.data.medium.articles %}
+  <h3>Medium Articles</h3>
+  <ul>
+    {% for a in site.data.medium.articles %}
+    <li><a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title }}</a> — {{ a.date | date: "%b %d, %Y" }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if site.data.linkedin and site.data.linkedin.posts %}
+  <h3>LinkedIn Highlights</h3>
+  <ul>
+    {% for p in site.data.linkedin.posts %}
+    <li><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a> — {{ p.date | date: "%b %d, %Y" }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>

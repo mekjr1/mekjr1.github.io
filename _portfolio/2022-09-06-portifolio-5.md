@@ -2,6 +2,7 @@
 title: "SocioMatico Informacao"
 excerpt: "A News publishing web platform powered by wordpress<br/><img src='/images/sociomatico.png'>"
 collection: portfolio
+published: false
 ---
 
 ## Features
